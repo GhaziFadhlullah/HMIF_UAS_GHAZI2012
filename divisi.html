@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Divisi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #001f3f;
+            color: white;
+        }
+        .division-card {
+            background-color: #003366;
+            border: none;
+        }
+        
+        .accordion-body {
+            background-color: navy;
+            color: white;
+            padding: 20px;
+        }
+        ul.member-list {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        ul.member-list li {
+            list-style: none;
+            margin-bottom: 5px;
+        }
+        ul.member-list li::before {
+            content: "\f007";
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            margin-right: 10px;
+        }
+        .division-image {
+            max-width: 35%; /* Menentukan ukuran maksimal gambar */
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            margin: 0 auto; /* Mengatur gambar agar berada di tengah */
+        }
+        .home-button {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="home-button">
+        <a href="index.html" class="btn btn-primary">
+            <i class="fas fa-home"></i> Home
+        </a>
+    </div>
+
+    <section id="divisions" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Detail Divisi</h2>
+            <div class="accordion" id="divisionsAccordion">
+                <!-- Presidium Inti -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingPresidium">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePresidium" aria-expanded="true" aria-controls="collapsePresidium">
+                            <i class="fas fa-users"></i> Presidium Inti
+                        </button>
+                    </h2>
+                    <div id="collapsePresidium" class="accordion-collapse collapse show" aria-labelledby="headingPresidium" data-bs-parent="#divisionsAccordion">
+                        <div class="accordion-body">
+                            <img src="inti.jpg" alt="Presidium Inti" class="division-image">
+                            <p>Press Inti adalah bagian dari HMIF yang menjadi pemimpin strategis, memiliki tanggung jawab dalam mengontrol kinerja setiap bagian himpunan, menjadi pengambil putusan tertinggi dalam himpunan, serta memastikan tercapainya tujuan serta visi misi himpunan dalam segala aspek.</p>
+                            <p>"Leading with vision, moving with purpose, thriving with integrity." - INTI</p>
+                            <h5>Members:</h5>
+                            <ul class="member-list">
+                                <li>Ahda Rindang A. (Ketua)</li>
+                                <li>Ridho Radya P.(Wakil Ketua)</li>
+                                <li>Indah Syafitri (Sekretaris)</li>
+                                <li>Hanifah Larama A.(Bendahara)</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Internal Division -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingInternal">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInternal" aria-expanded="false" aria-controls="collapseInternal">
+                            <i class="fas fa-cogs"></i> Internal
+                        </button>
+                    </h2>
+                    <div id="collapseInternal" class="accordion-collapse collapse" aria-labelledby="headingInternal" data-bs-parent="#divisionsAccordion">
+                        <div class="accordion-body">
+                            <img src="internal.jpg" alt="Internal Division" class="division-image">
+                            <p>Internal berperan penting dalam membangun kebersamaan di dalam himpunan. Memelihara hubungan yang harmonis di antara anggota melalui kegiatan yang menumbuhkan kebersamaan dan memperkuat solidaritas. Menciptakan lingkungan yang saling mendukung dan inklusif, di mana setiap anggota merasa dihargai dan terhubung. Dengan semangat solidaritas yang kuat, divisi ini memastikan bahwa setiap individu merasa didukung dan dihargai, membangun fondasi kokoh untuk persatuan dan kerja sama jangka panjang dalam himpunan.</p>
+                            <p>"Strength in Unity, Solidarity in Action!!!" - INTERNAL</p>
+                            <h5>Members :</h5>
+                            <ul class="member-list">
+                                <li>Irgi Fatihul I. (Ketua)</li>
+                                <li>Alifia Humairah (Sekretaris Bendahara)</li>
+                                <li>Ghazi Fadhlullah</li>
+                                <li>Fikhri Hanif</li>
+                                <li>Kaela Asyura S.</li>
+                                <li>Reynard Ghazy T.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Eksternal Division -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEksternal">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEksternal" aria-expanded="false" aria-controls="collapseEksternal">
+                            <i class="fas fa-handshake"></i> Eksternal
+                        </button>
+                    </h2>
+                    <div id="collapseEksternal" class="accordion-collapse collapse" aria-labelledby="headingEksternal" data-bs-parent="#divisionsAccordion">
+                        <div class="accordion-body">
+                            <img src="eksternal.jpg" alt="Eksternal Division" class="division-image">
+                            <p>Divisi Eksternal adalah jembatan penghubung himpunan dengan dunia luar. Kami siap memperluas jaringan, menciptakan kerjasama baru, dan menghadapi tantangan dengan strategi yang cerdas. Setiap jabatan tangan adalah kesuksesan!</p>
+                            <p>"Strong, Persistent, and Determined " - EKSTERNAL</p>
+                            <h5>Members:</h5>
+                            <ul class="member-list">
+                                <li>M. Rayhan Anugrah (Ketua)</li>
+                                <li>M. Fawwaz Wiyoga (Sekretaris Bendahara)</li>
+                                <li>Fathur Ramdhan F.</li>
+                                <li>Sherly Ananda p.</li>
+                                <li>Radjasa Arya</li>
+                                <li>M. Farrel Giovanni</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- HRD Division -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingHRD">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHRD" aria-expanded="false" aria-controls="collapseHRD">
+                            <i class="fas fa-user-friends"></i> HRD
+                        </button>
+                    </h2>
+                    <div id="collapseHRD" class="accordion-collapse collapse" aria-labelledby="headingHRD" data-bs-parent="#divisionsAccordion">
+                        <div class="accordion-body">
+                            <img src="hrd.jpg" alt="HRD Division" class="division-image">
+                            <p>Divisi Human Resources Development (HRD) merupakan bidang yang berfokus untuk mewadahi peningkatan kompetensi dan pengembangan kemampuan non-teknis serta pelaksanaan kaderisasi mahasiswa/i Departemen Informatika.</p>
+                            <p>"Cultivating talent, empowering change." - HRD</p>
+                            <h5>Members:</h5>
+                            <ul class="member-list">
+                                <li>M. Nugraha Patria (Ketua)</li>
+                                <li>Ezza Addini (Sekretaris Bendahara)</li>
+                                <li>M. Galid Avero</li>
+                                <li>Sherly Sukmadira P.</li>
+                                <li>Ahmad Fajri A.</li>
+                                <li>Devia Puji A.</li>
+                                <li>M. Dawi Syauqi</li>
+                                <li>Alfarizhi Fitra</li>
+                                <li>M. Raudhatul</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Infomed Division -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingInfomed">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInfomed" aria-expanded="false" aria-controls="collapseInfomed">
+                            <i class="fas fa-camera"></i> Infomed
+                        </button>
+                    </h2>
+                    <div id="collapseInfomed" class="accordion-collapse collapse" aria-labelledby="headingInfomed" data-bs-parent="#divisionsAccordion">
+                        <div class="accordion-body">
+                            <img src="infomed.jpg" alt="Infomed Division" class="division-image">
+                            <p>Divisi Informasi dan Media (Infomed) adalah divisi di HMIF yang bertanggung jawab untuk mengelola dan menyebarkan informasi seputar kegiatan, prestasi, dan program-program yang ada di HMIF. Divisi ini berperan sebagai pusat komunikasi yang memastikan seluruh mahasiswa/i mendapat informasi terkini melalui berbagai platform media. Infomed juga bertugas mendesain konten kreatif yang informatif dan menarik untuk mempromosikan HMIF serta memperkuat citra positif organisasi.</p>
+                            <p>"Delivering Information, Creating Impact" - INFOMED</p>
+                            <h5>Members:</h5>
+                            <ul class="member-list">
+                                <li>Surya Andika (Ketua)</li>
+                                <li>Fayi Amatullah A. (Sekretaris Bendahara)</li>
+                                <li>Wahyu Khairi</li>
+                                <li>Rafki Ahmad P.</li>
+                                <li>Kevin Andhika</li>
+                              
+                                <li>Stanley Leonard D.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adkesma Division -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingAdkesma">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAdkesma" aria-expanded="false" aria-controls="collapseAdkesma">
+                            <i class="fas fa-balance-scale"></i> Adkesma
+                        </button>
+                    </h2>
+                    <div id="collapseAdkesma" class="accordion-collapse collapse" aria-labelledby="headingAdkesma" data-bs-parent="#divisionsAccordion">
+                        <div class="accordion-body">
+                            <img src="adkes.jpg" alt="Adkesma Division" class="division-image">
+                            <p>Divisi Advokasi dan Kesejahteraan Mahasiswa (Adkesma) adalah Divisi di HMIF yang bertugas sebagai jembatan antara mahasiswa/i dan pihak kampus dalam menyampaikan aspirasi, menangani masalah akademis dan non-akademis, serta memperjuangkan kesejahteraan mahasiswa/i. Divisi ini juga berperan dalam menginisiasi program-program yang mendukung hak-hak mahasiswa/i, seperti beasiswa, bantuan, dan fasilitas belajar.</p>
+                           <p>Bridging Aspirations, Supporting Student Well-being" - ADKESMA</p>
+                            <h5>Members:</h5>
+                            <ul class="member-list">
+                                <li>Rifky Yuliandra (Ketua)</li>
+                                <li>Oktavia Ramdhani (Sekretaris Bendahara)</li>
+                                <li>M. Hafiz</li>
+                                <li>Reza Septian</li>
+                                <li>Nia Ramdhani</li>
+                                <li>M. Luthfi Kautsar R.</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Entrepreneur Division -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingEntrepreneur">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEntrepreneur" aria-expanded="false" aria-controls="collapseEntrepreneur">
+                            <i class="fas fa-lightbulb"></i> Entrepreneur
+                        </button>
+                    </h2>
+                    <div id="collapseEntrepreneur" class="accordion-collapse collapse" aria-labelledby="headingEntrepreneur" data-bs-parent="#divisionsAccordion">
+                        <div class="accordion-body">
+                            <img src="entre.jpg" alt="Entrepreneur Division" class="division-image">
+                            <p>This division promotes entrepreneurship, innovation, and business initiatives within the organization.</p>
+                            <h5>Members:</h5>
+                            <ul class="member-list">
+                                <li>M. Farhan Saputra (Ketua)</li>
+                                <li>Siti Fadhilah R. (Sekretaris Bendahara)</li>
+                                <li>Gilang Sirel P.</li>
+                                <li>Imbang Jayo G.</li>
+                                <li>Irfan Trianda</li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

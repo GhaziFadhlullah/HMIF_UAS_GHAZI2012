@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himpunan Mahasiswa Informatika</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: navy;
+            color: white;
+        }
+
+        .hero {
+            background:#001f3d;
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 120px 0;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+        }
+
+        .card {
+            background-color: #1e3d59;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+
+        .navbar {
+            background-color: #0d1b2a;
+        }
+
+        .footer {
+            background-color: #0d1b2a;
+            padding: 20px 0;
+        }
+
+        .footer-links a {
+            color: #aaa;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .btn-outline-primary {
+            color: white;
+            border-color: white;
+        }
+
+        .btn-outline-primary:hover {
+            background-color: white;
+            color: navy;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+    <div class="container">
+        <!-- Logo in the navbar -->
+        <a class="navbar-brand fw-bold" href="#">
+            <img src="hmif-logo.png" alt="HMIF Logo" style="max-width: 50px; height: auto;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about"><i class="fas fa-info-circle"></i> About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#vision-mission"><i class="fas fa-bullseye"></i> Vision & Mission</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#divisions"><i class="fas fa-users"></i> Divisions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+   <!-- Hero Section -->
+<div class="hero">
+    <div class="container text-center">
+        <h1 class="display-4 fw-bold text-white">HMIF</h1>
+        <p class="lead text-white">Himpunan Mahasiswa Informatika</p>
+        <img src="hmif-logo.png" alt="HMIF Logo" class="img-fluid mt-4" style="max-width: 200px;">
+    </div>
+</div>
+
+
+   <!-- About Section -->
+<section id="about" class="py-5" style="background: #001f3d; background-image: url('https://www.transparenttextures.com/patterns/diagonal-stripes-light.png');">
+    <div class="container">
+        <h2 class="text-center mb-4 text-white">About Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="full hima.jpg" alt="About Image" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+                <p class="text-white">Himpunan Mahasiswa Informatika merupakan sebuah wadah berekspresi dan berkembang serta sebagai pengaplikasian baik akademik maupun non-akademik bagi seluruh Mahasiswa Informatika. Himpunan Mahasiswa Program Studi Informatika atau yang lebih dikenal sebagai HMIF merupakan himpunan terbaru dari Fakultas Teknologi Informasi yang berdiri sejak tahun 2023, tepatnya pada hari Selasa, 4 Juli 2023. Pada saat ini, himpunan sudah berjalan selama satu tahun kepengurusan dan telah berhasil melaksanakan berbagai program kerja yang mendukung pengembangan kompetensi serta kreativitas mahasiswa. Selama periode ini, HMIF telah menjadi katalisator dalam mempererat solidaritas antar mahasiswa dan berkontribusi aktif dalam berbagai kegiatan sosial maupun ilmiah di lingkungan kampus.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Vision & Mission Section -->
+<section id="vision-mission" class="py-5 bg-dark text-white">
+    <div class="container">
+        <h2 class="text-center mb-4">Vision & Mission</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Vision</h3>
+                <p>Visi dari HMIF adalah Menciptakan Himpunan yang Mampu menjadi wadah untuk berekspresi dan berkembang, serta menampung aspirasi bagi anggotanya.</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Mission</h3>
+                <ul>
+                    <li>Menciptakan lingkungan yang kondusif bagi anggotanya dalam melatih komunikasi dan berekspresi secara bebas tanpa terkekang oleh pihak tertentu sesuai batas aturan yang berlaku.
+                    </li>
+                    <li>Mampu menampung aspirasi anggota demi kepentingan dan kemajuan himpunan tanpa memandang tingkatan atau jabatan anggotanya</li>
+                    <li>Menfasilitasi anggota untuk berkembang sesuai minat dan bakat sesuai minat dan bakat dalam bentuk klub-klub belajar.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Optional Bootstrap 5 Custom Styles -->
+<style>
+    .bg-dark {
+        background-color: #001f3d !important; /* Navy color */
+    }
+</style>
+
+<!-- Divisions Section -->
+<section id="divisions" class="py-5 bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-4 text-white">Our Divisions</h2>
+            <div class="row">
+                <!-- Presidium Inti -->
+                <div class="col-md-4 mb-3">
+                    <button class="btn btn-outline-primary w-100" data-bs-toggle="collapse" data-bs-target="#presidium"><i class="fas fa-users-cog"></i> Presidium Inti</button>
+                    <div id="presidium" class="collapse mt-2">
+                        <div class="card shadow">
+                            <div class="card-body text-white">
+                                <p>Press Inti adalah bagian dari HMIF yang menjadi pemimpin strategis, memiliki tanggung jawab dalam mengontrol kinerja setiap bagian himpunan, menjadi pengambil putusan tertinggi dalam himpunan, serta memastikan tercapainya tujuan serta visi misi himpunan dalam segala aspek</p>
+                                <p>"Leading with vision, moving with purpose, thriving with integrity." - INTI</p>
+                                <a href="divisi.html#collapsePresidium" class="btn btn-primary mt-2">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Internal Division -->
+                <div class="col-md-4 mb-3">
+                    <button class="btn btn-outline-primary w-100" data-bs-toggle="collapse" data-bs-target="#internal"><i class="fas fa-users"></i> Internal</button>
+                    <div id="internal" class="collapse mt-2">
+                        <div class="card shadow">
+                            <div class="card-body text-white">
+                                <p>Internal berperan penting dalam membangun kebersamaan di dalam himpunan. Memelihara hubungan yang harmonis di antara anggota melalui kegiatan yang menumbuhkan kebersamaan dan memperkuat solidaritas. Menciptakan lingkungan yang saling mendukung dan inklusif, di mana setiap anggota merasa dihargai dan terhubung. Dengan semangat solidaritas yang kuat, divisi ini memastikan bahwa setiap individu merasa didukung dan dihargai, membangun fondasi kokoh untuk persatuan dan kerja sama jangka panjang dalam himpunan.</p>
+                                <p>"Strength in Unity, Solidarity in Action!!!" - INTERNAL</p>
+                                <a href="divisi.html#collapseInternal" class="btn btn-primary mt-2">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Eksternal Division -->
+                <div class="col-md-4 mb-3">
+                    <button class="btn btn-outline-primary w-100" data-bs-toggle="collapse" data-bs-target="#eksternal"><i class="fas fa-handshake"></i> Eksternal</button>
+                    <div id="eksternal" class="collapse mt-2">
+                        <div class="card shadow">
+                            <div class="card-body text-white">
+                                <p>Divisi Eksternal adalah jembatan penghubung himpunan dengan dunia luar. Kami siap memperluas jaringan, menciptakan kerjasama baru, dan menghadapi tantangan dengan strategi yang cerdas. Setiap jabatan tangan adalah kesuksesan!</p>
+                                <p>"Strong, Persistent, and Determined" - EKSTERNAL</p>
+                                <a href="divisi.html#collapseEksternal" class="btn btn-primary mt-2">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- HRD Division -->
+                <div class="col-md-4 mb-3">
+                    <button class="btn btn-outline-primary w-100" data-bs-toggle="collapse" data-bs-target="#hrd"><i class="fas fa-user-tie"></i> HRD</button>
+                    <div id="hrd" class="collapse mt-2">
+                        <div class="card shadow">
+                            <div class="card-body text-white">
+                                <p>Divisi Human Resources Development (HRD) merupakan bidang yang berfokus untuk mewadahi peningkatan kompetensi dan pengembangan kemampuan non-teknis serta pelaksanaan kaderisasi mahasiswa/i Departemen Informatika.
+                                <p>"Cultivating talent, empowering change." - HRD</p>
+                                <a href="divisi.html#collapseHRD" class="btn btn-primary mt-2">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Infomed Division -->
+                <div class="col-md-4 mb-3">
+                    <button class="btn btn-outline-primary w-100" data-bs-toggle="collapse" data-bs-target="#infomed"><i class="fas fa-camera"></i> Infomed</button>
+                    <div id="infomed" class="collapse mt-2">
+                        <div class="card shadow">
+                            <div class="card-body text-white">
+                                <p>Divisi Informasi dan Media (Infomed) adalah divisi di HMIF yang bertanggung jawab untuk mengelola dan menyebarkan informasi seputar kegiatan, prestasi, dan program-program yang ada di HMIF. Divisi ini berperan sebagai pusat komunikasi yang memastikan seluruh mahasiswa/i mendapat informasi terkini melalui berbagai platform media. Infomed juga bertugas mendesain konten kreatif yang informatif dan menarik untuk mempromosikan HMIF serta memperkuat citra positif organisasi.</p>
+                                <p>"Delivering Information, Creating Impact" - INFOMED</p>
+                                <a href="divisi.html#collapseInfomed" class="btn btn-primary mt-2">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adkesma Division -->
+                <div class="col-md-4 mb-3">
+                    <button class="btn btn-outline-primary w-100" data-bs-toggle="collapse" data-bs-target="#adkesma"><i class="fas fa-chart-line"></i> Adkesma</button>
+                    <div id="adkesma" class="collapse mt-2">
+                        <div class="card shadow">
+                            <div class="card-body text-white">
+                                <p>Divisi Advokasi dan Kesejahteraan Mahasiswa (Adkesma) adalah Divisi di HMIF yang bertugas sebagai jembatan antara mahasiswa/i dan pihak kampus dalam menyampaikan aspirasi, menangani masalah akademis dan non-akademis, serta memperjuangkan kesejahteraan mahasiswa/i. Divisi ini juga berperan dalam menginisiasi program-program yang mendukung hak-hak mahasiswa/i, seperti beasiswa, bantuan, dan fasilitas belajar.</p>
+                                <p>"Bridging Aspirations, Supporting Student Well-being" -ADKESMA
+                                </p>
+                                <a href="divisi.html#collapseAdkesma" class="btn btn-primary mt-2">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Entrepreneur Division -->
+                <div class="col-md-4 mb-3">
+                    <button class="btn btn-outline-primary w-100" data-bs-toggle="collapse" data-bs-target="#entrepreneur"><i class="fas fa-lightbulb"></i> Entrepreneur</button>
+                    <div id="entrepreneur" class="collapse mt-2">
+                        <div class="card shadow">
+                            <div class="card-body text-white">
+                                <p>Entrepreneur merupakan bidang yang berfokus dalam pengembangan wirausaha dan bertujuan untuk mewadahi serta Mahasiswa/i Departemen Informatika yang ingin menjalankan kegiatan kewirausahaan, sehingga mereka dapat mengasah dan mengembangkan keterampilan, minat, serta potensi dalam bidang wirausaha melalui berbagai program dan kesempatan yang ada./p>
+                                <p>"No money, No Party" - ENTREPRENEUR</p>
+                                <a href="divisi.html#collapseEntrepreneur" class="btn btn-primary mt-2">See Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+                
+
+    <!-- Contact Section -->
+<section id="contact" class="py-5 bg-dark">
+    <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+            <!-- Left Column: Contact Form -->
+            <div class="col-md-6">
+                <h4>Feel free to contact us anytime</h4>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">SEND <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+
+            <!-- Right Column: Contact Information -->
+            <div class="col-md-6">
+                <h4>Info</h4>
+                <ul class="list-unstyled text-white">
+                    <li><i class="fas fa-envelope "></i> <a href="mailto:HMIF@gmail.com" class="text-white">HMIF@gmail.com</a></li>
+                    <li><i class="fas fa-phone"></i> <a href="tel:+628123456789" class="text-white">WhatsApp</a></li>
+                    <li><i class="fas fa-map-marker-alt" ></i> 
+                        <a href="https://www.google.com/maps?q=Limau+Manis,+Pauh,+Kec.+Pauh,+Kota+Padang,+Sumatera+Barat+25163" class="text-white" target="_blank">
+                            Limau Manis, Pauh, Kota Padang, Sumatera Barat 25163
+                        </a>
+                    </li>
+                    <li><i class="fas fa-clock"></i> <span style="color: rgb(249, 246, 246);">Jam Kerja (09:00 - 16:00)</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Add this in the <head> section for Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- Social Media Section -->
+    <section id="social-media" class="py-4 bg-dark text-white">
+        <div class="container text-center">
+            <h4>Follow Us</h4>
+            <div class="d-flex justify-content-center mt-3">
+                
+                <a href="https://www.instagram.com/hmif_unand?igsh=MW02OWFhanZlZ2Y4ZQ=="  class="btn btn-outline-light mx-2">Instagram</a>
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Himpunan Mahasiswa Informatika. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
